@@ -2,10 +2,21 @@
     padding: 0;
     margin: 0;
 }
+.main{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #clockContainer {
     position: relative;
     margin: auto;
     height: 40vw;
+    shape-outside: border-box;
+    padding: 50px;
+    border: 2px solid gray;
+    box-shadow: rgb(8, 163, 101);
     width: 40vw;
     background: url(clock.png) ;
     background-size: 100%;
